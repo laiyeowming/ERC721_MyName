@@ -1,0 +1,49 @@
+{
+  "name": "ym",
+  "version": "0.1.0",
+  "description": "Assignment",
+  "dependencies": {
+    "@openzeppelin/cli": "^2.8.2",
+    "@openzeppelin/contracts": "^4.4.1",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "babel-polyfill": "6.26.0",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-stage-2": "6.24.1",
+    "babel-preset-stage-3": "6.24.1",
+    "babel-register": "6.26.0",
+    "bootstrap": "^5.1.3",
+    "chai-as-promised": "^7.1.1",
+    "chai-bignumber": "3.0.0",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.0.0-beta.5",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.1",
+    "truffle": "5.4.27",
+    "truffle-flattener": "^1.4.2",
+    "util": "^0.12.4",
+    "web-vitals": "^2.1.3",
+    "web3": "^1.6.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^2.0.0",
+    "chai": "^4.3.4"
+  }
+}
