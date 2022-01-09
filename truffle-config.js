@@ -9,7 +9,7 @@ module.exports = {
       network_id: "*",       // Any network (default: none)
     },
     "ropsten": {
-      provider: () => new HDWalletProvider(`elite mango depth capital carry heart report unique hope episode chase ensure`, `https://ropsten.infura.io/v3/9d5ba8b3d1ab4df8a4701746faf22e2c`),
+      provider: () => new HDWalletProvider(mnemonic, `https://ropsten.infura.io/v3/${projectId}`),
       network_id: 3,       // Ropsten's id
       gas: 5500000,        // Ropsten has a lower block limit than mainnet
       networkCheckTimeout: 1000000,
